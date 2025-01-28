@@ -7,6 +7,7 @@ export default function AboutLayout({
   return (
     <div>
       <h1>Hello Root Layout About</h1>
+      {children}
     </div>
   );
 }

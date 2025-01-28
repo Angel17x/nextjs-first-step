@@ -10,6 +10,7 @@ export default function GeneralLayout({
       <Navbar />
       <main>
         <h1>Hello Root Layout General</h1>
+        {children}
       </main>
     </>
   );
